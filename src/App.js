@@ -8,7 +8,7 @@ import Footer from './components/Footer.js';
 function App() {
 	return (
 		<div className="App">
-			{/* 전체 레이아웃 */}
+			{/* 전체 레이아웃**/}
 			<figure>
 				<Logo />
 				<Menu />
