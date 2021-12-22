@@ -13,9 +13,9 @@ function App() {
 				<Logo />
 				<Menu />
 
-				<section>
-					<Panel />
-				</section>
+				
+				<Panel />
+				
 
 				<Footer />
 			</figure>
