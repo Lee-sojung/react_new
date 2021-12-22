@@ -2,6 +2,7 @@ import './css/style.css';
 import { Logo, Menu } from './components/Header.js';
 import Panel from './components/Panel.js';
 import Footer from './components/Footer.js';
+import Btns from './components/Btns.js';
 
 
 
@@ -15,7 +16,7 @@ function App() {
 
 				
 				<Panel />
-				
+				<Btns />
 
 				<Footer />
 			</figure>
