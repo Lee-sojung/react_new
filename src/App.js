@@ -3,21 +3,24 @@ import { Logo, Menu } from './components/Header.js';
 import Panel from './components/Panel.js';
 import Footer from './components/Footer.js';
 import Btns from './components/Btns.js';
+import { useRef } from 'react';
+
+
 
 
 
 function App() {
+	const frame = useRef(null);
 	return (
 		<div className="App">
 			{/* 전체 레이아웃**/}
 			<figure>
 				<Logo />
 				<Menu />
-
-				
-				<Panel />
-				<Btns />
-
+				<section ref={frame}>
+					<Panel />
+				</section>				
+				<Btns frame={frame}/>
 				<Footer />
 			</figure>
 		</div>

@@ -12,8 +12,7 @@ function Panel() {
 
 	return (
 		<>
-		<button style={btnStyle}>button</button>
-		<section>
+	
 		{
 			names.map((data,index)=>{	
 				let style = {transform: `rotate(${deg*index}deg) translateY(-100vh)`}	
@@ -32,7 +31,7 @@ function Panel() {
 				)
 			})
 		}
-		</section>
+		
 	
 		</>		
 	)
